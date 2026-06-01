@@ -1,0 +1,76 @@
+<h2>What should the cards feel like?</h2>
+<p class="subtitle">Layout locked: Spotlight + 2 small. Now pick the visual tone.</p>
+
+<div class="cards">
+
+  <!-- Option A: Glass morphism -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px">
+        <div style="background:linear-gradient(135deg,rgba(255,255,255,0.09),rgba(124,58,237,0.07));backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.14);border-radius:12px;overflow:hidden">
+          <div style="height:80px;background:linear-gradient(135deg,#1a1a2e 0%,#6633ee44 100%);position:relative">
+            <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 50%,rgba(12,12,20,0.8))"></div>
+            <div style="position:absolute;top:8px;left:10px;font-size:9px;color:#a78bfa;font-family:monospace;background:rgba(124,58,237,0.25);border:1px solid rgba(167,139,250,0.3);padding:2px 7px;border-radius:20px">madnani.org.in</div>
+          </div>
+          <div style="padding:12px">
+            <div style="height:6px;background:rgba(240,240,255,0.15);border-radius:3px;width:65%;margin-bottom:6px"></div>
+            <div style="height:5px;background:rgba(240,240,255,0.07);border-radius:3px;width:80%;margin-bottom:6px"></div>
+            <div style="height:5px;background:rgba(240,240,255,0.07);border-radius:3px;width:55%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Glass</h3>
+      <p>Frosted glass cards. Semi-transparent background, soft borders, blur effect. Feels premium and futuristic. Matches the Team GlassCard. Violet gradient tint on hover.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Bold violet border beam -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px">
+        <!-- Simulated border beam card -->
+        <div style="background:#0f0f18;border-radius:12px;overflow:hidden;position:relative;box-shadow:0 0 0 1px rgba(167,139,250,0.5),0 0 20px rgba(124,58,237,0.15)">
+          <div style="height:80px;background:linear-gradient(135deg,#12103a 0%,#6633ee55 100%);position:relative">
+            <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 50%,#0f0f18cc)"></div>
+            <div style="position:absolute;top:8px;left:10px;font-size:9px;color:#fff;font-family:monospace;background:#7c3aed;padding:2px 7px;border-radius:20px">madnani.org.in ↗</div>
+          </div>
+          <div style="padding:12px;border-top:1px solid rgba(124,58,237,0.2)">
+            <div style="height:6px;background:rgba(167,139,250,0.3);border-radius:3px;width:65%;margin-bottom:6px"></div>
+            <div style="height:5px;background:rgba(240,240,255,0.08);border-radius:3px;width:80%;margin-bottom:6px"></div>
+            <div style="height:5px;background:rgba(240,240,255,0.08);border-radius:3px;width:50%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Glowing Border</h3>
+      <p>Dark solid cards with a violet glow/border that intensifies on hover. Bold and punchy. Matches the Features section border-beam style. High contrast, very modern.</p>
+    </div>
+  </div>
+
+  <!-- Option C: Minimal / editorial -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.06);border-radius:10px;padding:14px">
+        <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.07);border-radius:12px;overflow:hidden">
+          <div style="height:80px;background:linear-gradient(135deg,#111118 0%,#1e1a2e 100%);position:relative">
+            <div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 60%,#0f0f18)"></div>
+          </div>
+          <div style="padding:12px">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:6px">01 — MADNANI.ORG.IN</div>
+            <div style="height:6px;background:rgba(240,240,255,0.1);border-radius:3px;width:70%;margin-bottom:5px"></div>
+            <div style="height:5px;background:rgba(240,240,255,0.06);border-radius:3px;width:55%"></div>
+            <div style="margin-top:8px;font-size:8px;color:rgba(167,139,250,0.6);font-family:monospace">↗ View live</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Minimal Dark</h3>
+      <p>Understated. No glow effects. Numbered entries, monospace labels, clean hover underline on the link. Lets the project screenshots do the talking. Editorial, confident.</p>
+    </div>
+  </div>
+
+</div>

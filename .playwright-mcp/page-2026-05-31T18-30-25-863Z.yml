@@ -1,0 +1,598 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "Rethink" [ref=e7] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e9]
+        - generic [ref=e15]: Rethink
+      - navigation [ref=e16]:
+        - link "Services" [ref=e17] [cursor=pointer]:
+          - /url: "#services"
+          - text: Services
+        - link "Work" [ref=e18] [cursor=pointer]:
+          - /url: "#showcase"
+          - text: Work
+        - link "Team" [ref=e19] [cursor=pointer]:
+          - /url: "#team"
+          - text: Team
+        - link "Tech Stack" [ref=e20] [cursor=pointer]:
+          - /url: "#tech-stack"
+          - text: Tech Stack
+      - link "Contact Us →" [ref=e22] [cursor=pointer]:
+        - /url: "#contact"
+        - generic [ref=e23]: Contact Us
+        - generic [ref=e24]: →
+  - main [ref=e25]:
+    - generic [ref=e31]:
+      - heading "Build digital products that scale with precision" [level=1] [ref=e35]
+      - generic [ref=e36]:
+        - textbox "Enter Your Email" [ref=e37]
+        - button "Get Started" [ref=e38]:
+          - img [ref=e39]
+          - generic [ref=e43]: Get Started
+      - paragraph [ref=e44]:
+        - img [ref=e45]
+        - text: No contract required
+      - generic [ref=e49]: Scroll
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]: 02 / Capabilities
+          - heading "Structural Engineering" [level=2] [ref=e55]:
+            - text: Structural
+            - text: Engineering
+        - paragraph [ref=e56]: We eschew decoration in favor of structural integrity. Every system we build serves a precise, measurable purpose.
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - generic [ref=e59] [cursor=pointer]:
+            - generic [ref=e61]:
+              - heading "Digital Systems" [level=3] [ref=e62]
+              - generic [ref=e63]: "01"
+            - paragraph [ref=e65]: High-performance React & Next.js architectures. We build interfaces that feel native and systems that process complexity effortlessly.
+          - generic [ref=e68] [cursor=pointer]:
+            - heading "Spatial & Mobile" [level=3] [ref=e69]
+            - generic [ref=e70]: "02"
+          - generic [ref=e73] [cursor=pointer]:
+            - heading "Hardware Telemetry" [level=3] [ref=e74]
+            - generic [ref=e75]: "03"
+          - generic [ref=e78] [cursor=pointer]:
+            - heading "Immersive Topology" [level=3] [ref=e79]
+            - generic [ref=e80]: "04"
+        - generic [ref=e88]: SYS.WEB_01
+    - generic [ref=e89]:
+      - generic:
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+        - generic:
+          - img
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - generic [ref=e92]: The Team
+          - heading "People behind Rethink" [level=2] [ref=e93]
+          - paragraph [ref=e94]: A focused crew of builders who care deeply about craft and outcomes.
+        - img "Rethink team" [ref=e97]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - paragraph [ref=e104]: Samar Singh
+            - paragraph [ref=e105]: Backend & DevOps
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: Mayank Tiwari
+            - paragraph [ref=e108]: Creative & Media
+          - generic [ref=e109]:
+            - paragraph [ref=e110]: Sumit Kumar Patel
+            - paragraph [ref=e111]: UI & UX
+          - generic [ref=e112]:
+            - paragraph [ref=e113]: Shivam Singh
+            - paragraph [ref=e114]: Full Stack & Embedded
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - heading "Craft bold digital products that last" [level=2] [ref=e119]
+          - generic [ref=e121]: ✦
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]: S
+            - generic [ref=e127]: M
+            - generic [ref=e128]: A
+            - generic [ref=e129]: R
+          - generic [ref=e130]:
+            - paragraph [ref=e131]: 50+
+            - paragraph [ref=e132]: Satisfied Clients
+      - paragraph [ref=e133]: We transform complex ideas into elegant digital systems for founders, teams and enterprises worldwide.
+      - generic [ref=e134]:
+        - generic [ref=e136]:
+          - img "Rethink Studio showcase" [ref=e137]
+          - generic:
+            - img:
+              - generic: AWARD WINNING DESIGN & DEV ✦
+            - generic:
+              - generic:
+                - generic: ✦
+          - paragraph [ref=e139]: Where design meets engineering precision.
+        - generic [ref=e141]:
+          - generic [ref=e143]:
+            - paragraph [ref=e144]: Our work has never been so impactful.
+            - heading "Ship faster, smarter and bolder than before." [level=3] [ref=e145]
+          - link "Start a Project" [ref=e146] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Start a Project
+            - img [ref=e147]
+    - generic [ref=e152]:
+      - generic [ref=e154]:
+        - generic [ref=e155]: Tooling Inventory
+        - paragraph [ref=e156]: Built with the best tools.
+        - paragraph [ref=e157]: Powered by precision.
+      - generic [ref=e158]:
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - img [ref=e162]
+            - generic [ref=e164]: React
+          - generic [ref=e165]:
+            - img [ref=e166]
+            - generic [ref=e168]: Next.js
+          - generic [ref=e169]:
+            - img [ref=e170]
+            - generic [ref=e172]: Three.js
+          - generic [ref=e173]:
+            - img [ref=e174]
+            - generic [ref=e176]: WebGL
+          - generic [ref=e177]:
+            - img [ref=e178]
+            - generic [ref=e180]: TypeScript
+          - generic [ref=e181]:
+            - img [ref=e182]
+            - generic [ref=e184]: Node.js
+          - generic [ref=e185]:
+            - img [ref=e186]
+            - generic [ref=e188]: GraphQL
+          - generic [ref=e189]:
+            - img [ref=e190]
+            - generic [ref=e192]: Vercel
+          - generic [ref=e193]:
+            - img [ref=e194]
+            - generic [ref=e196]: React
+          - generic [ref=e197]:
+            - img [ref=e198]
+            - generic [ref=e200]: Next.js
+          - generic [ref=e201]:
+            - img [ref=e202]
+            - generic [ref=e204]: Three.js
+          - generic [ref=e205]:
+            - img [ref=e206]
+            - generic [ref=e208]: WebGL
+          - generic [ref=e209]:
+            - img [ref=e210]
+            - generic [ref=e212]: TypeScript
+          - generic [ref=e213]:
+            - img [ref=e214]
+            - generic [ref=e216]: Node.js
+          - generic [ref=e217]:
+            - img [ref=e218]
+            - generic [ref=e220]: GraphQL
+          - generic [ref=e221]:
+            - img [ref=e222]
+            - generic [ref=e224]: Vercel
+          - generic [ref=e225]:
+            - img [ref=e226]
+            - generic [ref=e228]: React
+          - generic [ref=e229]:
+            - img [ref=e230]
+            - generic [ref=e232]: Next.js
+          - generic [ref=e233]:
+            - img [ref=e234]
+            - generic [ref=e236]: Three.js
+          - generic [ref=e237]:
+            - img [ref=e238]
+            - generic [ref=e240]: WebGL
+          - generic [ref=e241]:
+            - img [ref=e242]
+            - generic [ref=e244]: TypeScript
+          - generic [ref=e245]:
+            - img [ref=e246]
+            - generic [ref=e248]: Node.js
+          - generic [ref=e249]:
+            - img [ref=e250]
+            - generic [ref=e252]: GraphQL
+          - generic [ref=e253]:
+            - img [ref=e254]
+            - generic [ref=e256]: Vercel
+          - generic [ref=e257]:
+            - img [ref=e258]
+            - generic [ref=e260]: React
+          - generic [ref=e261]:
+            - img [ref=e262]
+            - generic [ref=e264]: Next.js
+          - generic [ref=e265]:
+            - img [ref=e266]
+            - generic [ref=e268]: Three.js
+          - generic [ref=e269]:
+            - img [ref=e270]
+            - generic [ref=e272]: WebGL
+          - generic [ref=e273]:
+            - img [ref=e274]
+            - generic [ref=e276]: TypeScript
+          - generic [ref=e277]:
+            - img [ref=e278]
+            - generic [ref=e280]: Node.js
+          - generic [ref=e281]:
+            - img [ref=e282]
+            - generic [ref=e284]: GraphQL
+          - generic [ref=e285]:
+            - img [ref=e286]
+            - generic [ref=e288]: Vercel
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - img [ref=e293]
+            - generic [ref=e295]: Docker
+          - generic [ref=e296]:
+            - img [ref=e297]
+            - generic [ref=e299]: Framer
+          - generic [ref=e300]:
+            - img [ref=e301]
+            - generic [ref=e303]: Tailwind
+          - generic [ref=e304]:
+            - img [ref=e305]
+            - generic [ref=e307]: WebRTC
+          - generic [ref=e308]:
+            - img [ref=e309]
+            - generic [ref=e311]: MQTT
+          - generic [ref=e312]:
+            - img [ref=e313]
+            - generic [ref=e315]: Python
+          - generic [ref=e316]:
+            - img [ref=e317]
+            - generic [ref=e319]: Web3
+          - generic [ref=e320]:
+            - img [ref=e321]
+            - generic [ref=e323]: React
+          - generic [ref=e324]:
+            - img [ref=e325]
+            - generic [ref=e327]: Docker
+          - generic [ref=e328]:
+            - img [ref=e329]
+            - generic [ref=e331]: Framer
+          - generic [ref=e332]:
+            - img [ref=e333]
+            - generic [ref=e335]: Tailwind
+          - generic [ref=e336]:
+            - img [ref=e337]
+            - generic [ref=e339]: WebRTC
+          - generic [ref=e340]:
+            - img [ref=e341]
+            - generic [ref=e343]: MQTT
+          - generic [ref=e344]:
+            - img [ref=e345]
+            - generic [ref=e347]: Python
+          - generic [ref=e348]:
+            - img [ref=e349]
+            - generic [ref=e351]: Web3
+          - generic [ref=e352]:
+            - img [ref=e353]
+            - generic [ref=e355]: React
+          - generic [ref=e356]:
+            - img [ref=e357]
+            - generic [ref=e359]: Docker
+          - generic [ref=e360]:
+            - img [ref=e361]
+            - generic [ref=e363]: Framer
+          - generic [ref=e364]:
+            - img [ref=e365]
+            - generic [ref=e367]: Tailwind
+          - generic [ref=e368]:
+            - img [ref=e369]
+            - generic [ref=e371]: WebRTC
+          - generic [ref=e372]:
+            - img [ref=e373]
+            - generic [ref=e375]: MQTT
+          - generic [ref=e376]:
+            - img [ref=e377]
+            - generic [ref=e379]: Python
+          - generic [ref=e380]:
+            - img [ref=e381]
+            - generic [ref=e383]: Web3
+          - generic [ref=e384]:
+            - img [ref=e385]
+            - generic [ref=e387]: React
+          - generic [ref=e388]:
+            - img [ref=e389]
+            - generic [ref=e391]: Docker
+          - generic [ref=e392]:
+            - img [ref=e393]
+            - generic [ref=e395]: Framer
+          - generic [ref=e396]:
+            - img [ref=e397]
+            - generic [ref=e399]: Tailwind
+          - generic [ref=e400]:
+            - img [ref=e401]
+            - generic [ref=e403]: WebRTC
+          - generic [ref=e404]:
+            - img [ref=e405]
+            - generic [ref=e407]: MQTT
+          - generic [ref=e408]:
+            - img [ref=e409]
+            - generic [ref=e411]: Python
+          - generic [ref=e412]:
+            - img [ref=e413]
+            - generic [ref=e415]: Web3
+          - generic [ref=e416]:
+            - img [ref=e417]
+            - generic [ref=e419]: React
+    - generic [ref=e421]:
+      - generic:
+        - generic: Capabilities
+      - generic [ref=e422]:
+        - generic [ref=e423]:
+          - generic:
+            - img
+          - generic [ref=e424]:
+            - generic [ref=e425]:
+              - generic [ref=e428]: 01 / Capability
+              - heading "Full-Stack Systems" [level=2] [ref=e429]
+            - generic [ref=e430]:
+              - paragraph [ref=e432]: Production-grade architectures. React + Node.js to AWS — designed to scale before you ever need it to.
+              - generic [ref=e433]:
+                - generic [ref=e434]: React
+                - generic [ref=e435]: Node.js
+                - generic [ref=e436]: AWS
+                - generic [ref=e437]: CI/CD
+                - generic [ref=e438]: PostgreSQL
+          - generic [ref=e439]:
+            - img
+            - generic: "01"
+            - img [ref=e441]
+            - generic [ref=e446]:
+              - generic [ref=e449]: React
+              - generic [ref=e452]: Node.js
+              - generic [ref=e455]: AWS
+              - generic [ref=e458]: CI/CD
+              - generic [ref=e461]: PostgreSQL
+        - generic [ref=e462]:
+          - generic:
+            - img
+          - generic [ref=e463]:
+            - generic [ref=e464]:
+              - generic [ref=e467]: 02 / Capability
+              - heading "Spatial Interfaces" [level=2] [ref=e468]
+            - generic [ref=e469]:
+              - paragraph [ref=e470]: WebGL and Three.js at 60fps. 3D environments that feel as fast as they look.
+              - generic [ref=e471]:
+                - generic [ref=e472]: Three.js
+                - generic [ref=e473]: WebGL
+                - generic [ref=e474]: GLSL
+                - generic [ref=e475]: R3F
+                - generic [ref=e476]: Spline
+          - generic [ref=e477]:
+            - img
+            - generic: "02"
+            - img [ref=e479]
+            - generic [ref=e483]:
+              - generic [ref=e486]: Three.js
+              - generic [ref=e489]: WebGL
+              - generic [ref=e492]: GLSL
+              - generic [ref=e495]: R3F
+              - generic [ref=e498]: Spline
+        - generic [ref=e499]:
+          - generic:
+            - img
+          - generic [ref=e500]:
+            - generic [ref=e501]:
+              - generic [ref=e504]: 03 / Capability
+              - heading "Hardware & Telemetry" [level=2] [ref=e505]
+            - generic [ref=e506]:
+              - paragraph [ref=e507]: Firmware to dashboard. MQTT pipelines and real-time feeds — physical world, made software.
+              - generic [ref=e508]:
+                - generic [ref=e509]: MQTT
+                - generic [ref=e510]: Firmware
+                - generic [ref=e511]: WebSocket
+                - generic [ref=e512]: InfluxDB
+                - generic [ref=e513]: Grafana
+          - generic [ref=e514]:
+            - img
+            - generic: "03"
+            - img [ref=e516]
+            - generic [ref=e520]:
+              - generic [ref=e523]: MQTT
+              - generic [ref=e526]: Firmware
+              - generic [ref=e529]: WebSocket
+              - generic [ref=e532]: InfluxDB
+              - generic [ref=e535]: Grafana
+        - generic [ref=e536]:
+          - generic:
+            - img
+          - generic [ref=e537]:
+            - generic [ref=e538]:
+              - generic [ref=e541]: 04 / Capability
+              - heading "Brand & Motion" [level=2] [ref=e542]
+            - generic [ref=e543]:
+              - paragraph [ref=e544]: Identity systems with a pulse. Logos, motion design, 3D — things people screenshot and share.
+              - generic [ref=e545]:
+                - generic [ref=e546]: Branding
+                - generic [ref=e547]: Motion
+                - generic [ref=e548]: 3D Assets
+                - generic [ref=e549]: Video
+                - generic [ref=e550]: Design Systems
+          - generic [ref=e551]:
+            - img
+            - generic: "04"
+            - img [ref=e553]
+            - generic [ref=e557]:
+              - generic [ref=e560]: Branding
+              - generic [ref=e563]: Motion
+              - generic [ref=e566]: 3D Assets
+              - generic [ref=e569]: Video
+              - generic [ref=e572]: Design Systems
+      - generic [ref=e579]: 01 / 04
+      - generic:
+        - generic: Scroll
+        - generic: →
+    - generic [ref=e581]:
+      - generic [ref=e582]:
+        - generic [ref=e583]:
+          - generic [ref=e586]: "[06] Contact"
+          - heading "Let's talk." [level=2] [ref=e588]:
+            - text: Let's
+            - emphasis [ref=e589]: talk.
+          - paragraph [ref=e590]: Direct line to our team — no account managers, no phone-tag between departments. Tell us about your next project and we'll reply within 24 hours with concrete next steps.
+        - generic [ref=e591]:
+          - generic [ref=e593]:
+            - generic [ref=e594]: EMAIL
+            - generic [ref=e595]: hello@rethink.studio
+          - generic [ref=e598]:
+            - generic [ref=e599]: PHONE
+            - generic [ref=e600]: +91 98765 43210
+          - generic [ref=e603]:
+            - generic [ref=e604]: STUDIO
+            - generic [ref=e605]: Bengaluru · Karnataka
+          - generic [ref=e608]: Reply within 24h ≡ Q3 / Q4 available
+      - generic [ref=e609]:
+        - generic [ref=e610]:
+          - generic [ref=e611]: Briefing
+          - heading "Send us a short briefing." [level=3] [ref=e612]:
+            - text: Send us a
+            - emphasis [ref=e613]: short briefing.
+        - generic [ref=e614]:
+          - generic [ref=e615]:
+            - generic [ref=e616]:
+              - generic [ref=e617]: First Name *
+              - textbox "Shivam" [ref=e618]
+            - generic [ref=e619]:
+              - generic [ref=e620]: Last Name *
+              - textbox "Singh" [ref=e621]
+          - generic [ref=e622]:
+            - generic [ref=e623]: Email *
+            - textbox "you@company.com" [ref=e624]
+          - generic [ref=e625]:
+            - generic [ref=e626]: Phone Number *
+            - textbox "+91 98765 43210" [ref=e627]
+          - generic [ref=e628]:
+            - generic [ref=e629]:
+              - generic [ref=e630]: Company Name — optional
+              - textbox "Studio Inc." [ref=e631]
+            - generic [ref=e632]:
+              - generic [ref=e633]: Project Type — optional
+              - textbox "Web app, Mobile, IoT…" [ref=e634]
+          - generic [ref=e635]:
+            - generic [ref=e636]: Message — optional
+            - textbox "Idea, industry, timeline — what we should know." [ref=e637]
+          - generic [ref=e638] [cursor=pointer]:
+            - checkbox "I consent to the processing of my data. Read our privacy policy." [ref=e639]
+            - generic [ref=e640]: I consent to the processing of my data. Read our privacy policy.
+          - button "Send request →" [ref=e641]
+  - contentinfo [ref=e643]:
+    - generic [ref=e644]:
+      - generic [ref=e645]:
+        - heading "SYSTEMS for TOMORROW" [level=2] [ref=e646]:
+          - text: SYSTEMS
+          - text: for
+          - text: TOMORROW
+        - link "initiate@rethink.systems" [ref=e647] [cursor=pointer]:
+          - /url: mailto:initiate@rethink.systems
+          - text: initiate@rethink.systems
+          - img [ref=e648]
+      - generic [ref=e651]:
+        - generic [ref=e652]:
+          - img "Rethink" [ref=e653]
+          - generic [ref=e654]: © 2026
+        - generic [ref=e655]:
+          - link [ref=e656] [cursor=pointer]:
+            - /url: https://twitter.com
+            - img [ref=e657]
+          - link [ref=e659] [cursor=pointer]:
+            - /url: https://linkedin.com
+            - img [ref=e660]
+          - link [ref=e664] [cursor=pointer]:
+            - /url: https://github.com
+            - img [ref=e665]
+        - generic [ref=e667]: "[ Observation & Engineering ]"

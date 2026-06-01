@@ -1,0 +1,145 @@
+<h2>What should the detail panel feel like?</h2>
+<p class="subtitle">Layout locked: Numbered list left · Detail panel right</p>
+
+<div class="cards">
+
+  <!-- Option A: Animated feature cards with live mini-illustration -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:14px;display:grid;grid-template-columns:1fr 1.5fr;gap:10px">
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="background:#0f0f18;border:1px solid rgba(124,58,237,0.35);border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px">
+            <div style="font-size:9px;color:#a78bfa;font-family:monospace;font-weight:700">01</div>
+            <div style="height:5px;background:#a78bfa55;border-radius:3px;flex:1"></div>
+            <div style="width:6px;height:6px;border-right:1.5px solid #a78bfa;border-top:1.5px solid #a78bfa;transform:rotate(45deg)"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.55">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">02</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.55">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">03</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.55">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">04</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+        </div>
+        <!-- Detail panel: has a decorative animated area at top + content below -->
+        <div style="background:#0f0f18;border:1px solid rgba(124,58,237,0.25);border-radius:10px;overflow:hidden">
+          <!-- Decorative top zone with animated gradient blob -->
+          <div style="height:60px;background:linear-gradient(135deg,#12103a,#1e1060);position:relative;overflow:hidden">
+            <div style="position:absolute;width:80px;height:80px;background:radial-gradient(circle,rgba(124,58,237,0.5),transparent);border-radius:50%;top:-20px;right:-10px"></div>
+            <div style="position:absolute;width:50px;height:50px;background:radial-gradient(circle,rgba(167,139,250,0.3),transparent);border-radius:50%;bottom:-15px;left:15px"></div>
+            <div style="position:absolute;bottom:10px;left:14px;font-size:14px;color:#a78bfa">⬡</div>
+          </div>
+          <div style="padding:12px">
+            <div style="height:6px;background:#a78bfa55;border-radius:3px;width:60%;margin-bottom:7px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:100%;margin-bottom:4px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:85%;margin-bottom:4px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:70%;margin-bottom:8px"></div>
+            <div style="display:flex;gap:4px;flex-wrap:wrap">
+              <div style="background:rgba(124,58,237,0.2);border:1px solid rgba(124,58,237,0.3);border-radius:20px;padding:2px 7px;font-size:8px;color:#a78bfa;font-family:monospace">React</div>
+              <div style="background:rgba(124,58,237,0.2);border:1px solid rgba(124,58,237,0.3);border-radius:20px;padding:2px 7px;font-size:8px;color:#a78bfa;font-family:monospace">Node.js</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Illustrated Panel</h3>
+      <p>Detail panel has a decorative gradient art zone at top (unique per service), then title + description + tech stack pill tags below. Rich, visually distinct per service.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Clean minimal with bullet points -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:14px;display:grid;grid-template-columns:1fr 1.5fr;gap:10px">
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="background:#0f0f18;border:1px solid rgba(124,58,237,0.35);border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px">
+            <div style="font-size:9px;color:#a78bfa;font-family:monospace;font-weight:700">01</div>
+            <div style="height:5px;background:#a78bfa55;border-radius:3px;flex:1"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.5">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">02</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.5">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">03</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.5">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">04</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+        </div>
+        <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:14px">
+          <div style="width:28px;height:28px;background:rgba(124,58,237,0.15);border:1px solid rgba(124,58,237,0.25);border-radius:7px;margin-bottom:10px"></div>
+          <div style="height:7px;background:#f0f0ff22;border-radius:3px;width:55%;margin-bottom:10px"></div>
+          <div style="display:flex;flex-direction:column;gap:5px">
+            <div style="display:flex;align-items:center;gap:6px">
+              <div style="width:4px;height:4px;background:#a78bfa;border-radius:50%;flex-shrink:0"></div>
+              <div style="height:4px;background:#f0f0ff11;border-radius:3px;flex:1"></div>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px">
+              <div style="width:4px;height:4px;background:#a78bfa;border-radius:50%;flex-shrink:0"></div>
+              <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:80%"></div>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px">
+              <div style="width:4px;height:4px;background:#a78bfa;border-radius:50%;flex-shrink:0"></div>
+              <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Clean + Bullets</h3>
+      <p>Icon + title + 3 bullet points per service. No decorative art. Minimal, scannable, professional. Each bullet = a specific deliverable (e.g. "Custom React dashboards", "REST API design").</p>
+    </div>
+  </div>
+
+  <!-- Option C: Full-bleed dark with glowing accent line -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:14px;display:grid;grid-template-columns:1fr 1.5fr;gap:10px">
+        <div style="display:flex;flex-direction:column;gap:5px">
+          <div style="background:#0f0f18;border-radius:8px;padding:9px 11px;display:flex;align-items:center;gap:8px;border-left:2px solid #7c3aed">
+            <div style="font-size:9px;color:#a78bfa;font-family:monospace;font-weight:700">01</div>
+            <div style="height:5px;background:#a78bfa55;border-radius:3px;flex:1"></div>
+          </div>
+          <div style="background:#0f0f18;border-radius:8px;border:1px solid rgba(255,255,255,0.05);padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.5">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">02</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+          <div style="background:#0f0f18;border-radius:8px;border:1px solid rgba(255,255,255,0.05);padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.5">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">03</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+          <div style="background:#0f0f18;border-radius:8px;border:1px solid rgba(255,255,255,0.05);padding:9px 11px;display:flex;align-items:center;gap:8px;opacity:0.5">
+            <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">04</div>
+            <div style="height:5px;background:#f0f0ff18;border-radius:3px;flex:1"></div>
+          </div>
+        </div>
+        <!-- Detail panel: left violet accent bar + description + CTA -->
+        <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:14px;position:relative;overflow:hidden">
+          <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(to bottom,#7c3aed,#a78bfa44)"></div>
+          <div style="padding-left:10px">
+            <div style="font-size:8px;color:#a78bfa;font-family:monospace;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:6px">WEB / APP DEV</div>
+            <div style="height:5px;background:#f0f0ff22;border-radius:3px;width:90%;margin-bottom:4px"></div>
+            <div style="height:5px;background:#f0f0ff22;border-radius:3px;width:75%;margin-bottom:4px"></div>
+            <div style="height:5px;background:#f0f0ff22;border-radius:3px;width:82%;margin-bottom:10px"></div>
+            <div style="height:20px;width:60px;background:rgba(124,58,237,0.25);border:1px solid rgba(124,58,237,0.4);border-radius:4px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Accent Bar + CTA</h3>
+      <p>Violet accent bar on left edge of detail panel. Service name as monospace label, description paragraph, "Get a quote →" CTA button. Bold, directional, conversion-focused.</p>
+    </div>
+  </div>
+
+</div>

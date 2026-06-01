@@ -1,0 +1,116 @@
+<h2>How should the 4 Services be laid out?</h2>
+<p class="subtitle">Web/App Dev · Automation · IoT & Embedded · Online Marketing</p>
+
+<div class="cards">
+
+  <!-- Option A: 2x2 bento grid -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:14px">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+          <div style="background:#0f0f18;border:1px solid rgba(124,58,237,0.25);border-radius:10px;padding:12px">
+            <div style="width:24px;height:24px;background:rgba(124,58,237,0.2);border-radius:6px;margin-bottom:8px"></div>
+            <div style="height:6px;background:#a78bfa44;border-radius:3px;width:70%;margin-bottom:5px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:90%;margin-bottom:3px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:75%"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:12px">
+            <div style="width:24px;height:24px;background:rgba(124,58,237,0.1);border-radius:6px;margin-bottom:8px"></div>
+            <div style="height:6px;background:#a78bfa33;border-radius:3px;width:80%;margin-bottom:5px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:85%;margin-bottom:3px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:60%"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:12px">
+            <div style="width:24px;height:24px;background:rgba(124,58,237,0.1);border-radius:6px;margin-bottom:8px"></div>
+            <div style="height:6px;background:#a78bfa33;border-radius:3px;width:65%;margin-bottom:5px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:90%;margin-bottom:3px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:70%"></div>
+          </div>
+          <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:12px">
+            <div style="width:24px;height:24px;background:rgba(124,58,237,0.1);border-radius:6px;margin-bottom:8px"></div>
+            <div style="height:6px;background:#a78bfa33;border-radius:3px;width:75%;margin-bottom:5px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:80%;margin-bottom:3px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:55%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — 2×2 Bento Grid</h3>
+      <p>Equal 4-card grid. Icon + title + 2-line description each. Clean, symmetric, modern. Works on all screen sizes. Like the existing Features section but for 4 items.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Horizontal tabs / accordion -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:14px">
+        <!-- Tab bar -->
+        <div style="display:flex;gap:6px;margin-bottom:10px">
+          <div style="background:rgba(124,58,237,0.2);border:1px solid rgba(124,58,237,0.4);border-radius:20px;padding:3px 10px;font-size:9px;color:#a78bfa;font-family:monospace">Web/App</div>
+          <div style="background:transparent;border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:3px 10px;font-size:9px;color:rgba(240,240,255,0.35);font-family:monospace">Automation</div>
+          <div style="background:transparent;border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:3px 10px;font-size:9px;color:rgba(240,240,255,0.35);font-family:monospace">IoT</div>
+          <div style="background:transparent;border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:3px 10px;font-size:9px;color:rgba(240,240,255,0.35);font-family:monospace">Marketing</div>
+        </div>
+        <!-- Active content panel -->
+        <div style="background:#0f0f18;border:1px solid rgba(124,58,237,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;gap:12px;align-items:flex-start">
+            <div style="width:32px;height:32px;background:rgba(124,58,237,0.2);border-radius:8px;flex-shrink:0"></div>
+            <div style="flex:1">
+              <div style="height:7px;background:#a78bfa55;border-radius:3px;width:55%;margin-bottom:6px"></div>
+              <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:100%;margin-bottom:4px"></div>
+              <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:85%;margin-bottom:4px"></div>
+              <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Pill Tabs</h3>
+      <p>4 pill tabs across the top, active tab shows expanded content below. One service in focus at a time. Interactive, spacious. Similar to the FourBuilds section you're removing.</p>
+    </div>
+  </div>
+
+  <!-- Option C: Numbered vertical list with expanding right panel -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0c0c14;border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:14px">
+        <div style="display:grid;grid-template-columns:1fr 1.4fr;gap:10px;align-items:start">
+          <!-- Left list -->
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div style="background:#0f0f18;border:1px solid rgba(124,58,237,0.3);border-radius:8px;padding:10px;display:flex;align-items:center;gap:8px">
+              <div style="font-size:9px;color:#a78bfa;font-family:monospace;opacity:0.6">01</div>
+              <div style="height:5px;background:#a78bfa55;border-radius:3px;flex:1"></div>
+            </div>
+            <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:10px;display:flex;align-items:center;gap:8px;opacity:0.6">
+              <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">02</div>
+              <div style="height:5px;background:#f0f0ff22;border-radius:3px;flex:1"></div>
+            </div>
+            <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:10px;display:flex;align-items:center;gap:8px;opacity:0.6">
+              <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">03</div>
+              <div style="height:5px;background:#f0f0ff22;border-radius:3px;flex:1"></div>
+            </div>
+            <div style="background:#0f0f18;border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:10px;display:flex;align-items:center;gap:8px;opacity:0.6">
+              <div style="font-size:9px;color:rgba(240,240,255,0.3);font-family:monospace">04</div>
+              <div style="height:5px;background:#f0f0ff22;border-radius:3px;flex:1"></div>
+            </div>
+          </div>
+          <!-- Right detail panel -->
+          <div style="background:#0f0f18;border:1px solid rgba(124,58,237,0.2);border-radius:8px;padding:12px">
+            <div style="width:28px;height:28px;background:rgba(124,58,237,0.2);border-radius:7px;margin-bottom:8px"></div>
+            <div style="height:6px;background:#a78bfa44;border-radius:3px;width:65%;margin-bottom:6px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:100%;margin-bottom:3px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:80%;margin-bottom:3px"></div>
+            <div style="height:4px;background:#f0f0ff11;border-radius:3px;width:60%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Numbered List + Detail Panel</h3>
+      <p>Numbered service list on left, click to reveal detail on right. Editorial feel, shows depth per service. Great for longer descriptions or adding tech stack bullets.</p>
+    </div>
+  </div>
+
+</div>
